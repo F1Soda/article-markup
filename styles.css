@@ -56,12 +56,47 @@ section {
 
 
 @media (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        width: 100%;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu ul {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .menu-item {
+        display: block;
+        margin: 0;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+    }
+
     .header {
         font-size: 26px;
-        line-height: 32px;
-        text-align: left;
+        line-height: 30px;
+        margin: 20px 0 0;
+        text-align: center;
         padding: 0 10px;
-        color:rgba(0,0,0,0.84);
     }
 
     p {
