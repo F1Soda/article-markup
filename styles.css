@@ -1,10 +1,12 @@
 .header {
-    font-family:LucidaGrande-Bold, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-family: LucidaGrande-Bold, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    margin: 40px 0 0;
 }
+
 
 p {
     font-family: Georgia, serif;
